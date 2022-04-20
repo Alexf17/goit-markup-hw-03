@@ -59,8 +59,7 @@ body {
 }
 
 .header {
-    display: flex;
-    border: 1px solid #ececec;
+    border-bottom : 1px solid #ececec;
 }
 .box {
     display: flex;
@@ -139,7 +138,7 @@ body {
 .hero {
     background-color: var(--background-color);
     text-align: center;
-    padding: 200px 425px;
+    padding: 200px 0;
 }
 .hero-title {
     font-weight: 900;
@@ -215,9 +214,9 @@ body {
     background-color:var(--accent-color);
 }    */
 /*----------Features-------*/
-.features {
+.section {
     padding-top: 94px;
-    padding-bottom: 0px;
+    padding-bottom: 94px;
 }
 .features-list {
     display: flex;
@@ -246,8 +245,7 @@ body {
 }
 /*----------Activity-------*/
 .activity {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 0;
 }
 .activity-title,
 .team-title {
@@ -268,8 +266,6 @@ body {
 
 .team {
     background-color: #f5f4fa;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 .team-list {
     display: flex;
@@ -312,7 +308,7 @@ body {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.adress-list {
+.adress-block {
     margin-top: 20px;
 }
 .adress-list .item:not(:last-child) {
